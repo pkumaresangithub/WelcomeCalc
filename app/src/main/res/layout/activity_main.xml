@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Anrdoid "
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:layout_margin="35dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Number 1 "
+        android:id="@+id/num1"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Number 2 "
+        android:id="@+id/num2"
+        />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:hint="Total value"
+        android:layout_margin="10dp"
+        android:id="@+id/total"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:id="@+id/add"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Substract"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:id="@+id/substract"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiply"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:id="@+id/multiply"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Divide"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:id="@+id/divide"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
